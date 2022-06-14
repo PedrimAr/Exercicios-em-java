@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CalculoHabilidade {
+public class HabilidadeAvancada {
 	public static void main(String[] args) {
 		System.out.println("Insira o nome do jogador: ");
 		Scanner sc = new Scanner(System.in);
