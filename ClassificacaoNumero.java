@@ -9,13 +9,13 @@ public class ClassificacaoNumero {
 		if(par(num) == true) {
 			System.out.println("\nO número " + num + " é par!");
 		}
-		else if(par(num) == false) {
+		else {
 			System.out.println("\nO número " + num + " é ímpar!");
 		}
 		if(primo(num) == true) {
 			System.out.println("O número " + num + " é primo!");
 		}
-		else if(primo(num) == false) {
+		else {
 			System.out.println("O número " + num + " não é primo!");
 		}
 	}
@@ -32,9 +32,9 @@ public class ClassificacaoNumero {
 	public static boolean primo(int num) {
 		int count = 0;
 		for(int i = 1; i <= num; i++) {
-				if(num % i == 0) {
-					count ++;
-				}
+			if(num % i == 0) {
+				count ++;
+			}
 		}
 		if(count == 2) {
 			return true;
